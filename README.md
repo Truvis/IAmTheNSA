@@ -75,7 +75,7 @@ Next we could take the text file and pipe to the following script.
   done
   ```
 
-In the end, I was able to monitor 10000's of 1000's of devices. The hard part, spending days reading documents to make the servers stable and not drop drawing all the graphcs. I was finally able to stablize the system and have full statistics without dropping.
+In the end, I was able to monitor 10's of 1000's of devices. The hard part, spending days reading documents to make the servers stable and not drop drawing all the graphcs. I was finally able to stablize the system and have full statistics without dropping.
 
 ![alt text](https://preview.ibb.co/dbxDrJ/Untitled.png "SNMP GRAPHS")
 
