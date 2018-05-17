@@ -7,7 +7,9 @@ Will be updating this and posting more as I complete this project. The drive for
 
 #### Goals:
 
-The goal of this is to collect as much information possible that is public knowledge and then categoarize it in database and use a central system to search all the projects collecting information and then nicely display all the information in one clean webpage
+The goal of this is to collect as much information possible that is public knowledge and then categoarize it in database and use a central system to search all the projects collecting information and then nicely display all the information in one clean webpage.
+
+The idea is to have the ability to type in any IP address and see what is running or where that IP is located. Pull websites on IPs and log their web application software for versions. Have the ability to search for a version of an application and see all that hosts that it is running. Easy research for seeing how badly a 0day could rip through the internet or networks. 
 
 ## PHASE 1 :
 
