@@ -11,13 +11,15 @@ The goal of this is to collect as much information possible that is public knowl
 
 The idea is to have the ability to type in any IP address and see what is running or where that IP is located. Pull websites on IPs and log their web application software for versions. Have the ability to search for a version of an application and see all that hosts that it is running. Easy research for seeing how badly a 0day could rip through the internet or networks. 
 
-## PHASE 1 :
+## PHASE 1 : Initial setup. Scanning and building an IP database and testing the waters.
 
 ### => SNMP and Script Scanning prep
 (( fun fact: i was able to monitor many servers, firewalls, and switches from major datacenters and hosting providers. There was also a massive amount of vulnerable IPMIs, iDRAC, ect... exposed to the internet. Sent pictures to some of my buddies who are CEOs and CTOs in the industry. They found it funny but their systems were actually done right )) 
 
 Idea inspired after setting up several systems to monitor our devices at work. Surely, people who copy and paste from these guides 
 SNMP Grabbing. 
+
+Only had one complaint come in from a host after all the scanning, and that was only on a small set of IPs. It looks like scanning just one port does not attract a lot of attention, or get yourself blocked in firewalls. 
 
 The first step was to write a script that could find IPs from with port 161/UDP open and then pipe those IPs from nmap to snampwalk to see if the default community password worked on v2c systems.
 
